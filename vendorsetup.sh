@@ -13,12 +13,3 @@ git clone https://gitlab.com/NemesisDevelopers/moto-camera/motorola_camera2_over
 
 # clone signature
 git clone https://gitlab.com/NemesisDevelopers/motorola/motorola_motosignatureapp.git -b eleven packages/apps/MotoSignatureApp
-
-# zlib from protonAOSP
-rm -rf external/zlib
-rm -rf external/zlib-ng
-git clone https://github.com/ProtonAOSP/android_external_zlib-ng.git -b rvc external/zlib-ng
-
-# jemalloc from protonAOSP
-rm -rf external/jemalloc_new
-git clone https://github.com/ProtonAOSP/android_external_jemalloc_new.git -b rvc external/jemalloc_new
